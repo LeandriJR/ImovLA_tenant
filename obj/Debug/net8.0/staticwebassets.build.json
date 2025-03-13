@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "at31DPMXijC4oxEMhrMYjtOGu9piCX5EDnfKInynshI=",
+  "Source": "Tenant",
+  "BasePath": "_content/Tenant",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|c:\\users\\nubbd\\onedrive\\\u00E1rea de trabalho\\projetos\\pessoais\\imobiliaria\\tenant\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|c:\\users\\nubbd\\onedrive\\\u00E1rea de trabalho\\projetos\\pessoais\\imobiliaria\\tenant\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|c:\\users\\nubbd\\onedrive\\\u00E1rea de trabalho\\projetos\\pessoais\\imobiliaria\\tenant\\application\\services\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|solutionrelative:application\\services\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|c:\\users\\nubbd\\onedrive\\\u00E1rea de trabalho\\projetos\\pessoais\\imobiliaria\\tenant\\application\\interfaces\\itenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|solutionrelative:application\\interfaces\\itenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|c:\\users\\nubbd\\onedrive\\\u00E1rea de trabalho\\projetos\\pessoais\\imobiliaria\\tenant\\infrastructure\\repositories\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|solutionrelative:infrastructure\\repositories\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|c:\\users\\nubbd\\onedrive\\\u00E1rea de trabalho\\projetos\\pessoais\\imobiliaria\\tenant\\api\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|solutionrelative:api\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|c:\\users\\nubbd\\onedrive\\\u00E1rea de trabalho\\projetos\\pessoais\\imobiliaria\\tenant\\application\\dtos\\tenantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|solutionrelative:application\\dtos\\tenantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|c:\\users\\nubbd\\onedrive\\\u00E1rea de trabalho\\projetos\\pessoais\\imobiliaria\\tenant\\domain\\tenantentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3354FC93-3BB9-4616-BF08-46D74693D114}|Tenant.csproj|solutionrelative:domain\\tenantentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T00:29:45.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TenantController.cs",
+              "DocumentMoniker": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Api\\Controllers\\TenantController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\TenantController.cs",
+              "ToolTip": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Api\\Controllers\\TenantController.cs",
+              "RelativeToolTip": "Api\\Controllers\\TenantController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAjwBUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:43:17.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TenantService.cs",
+              "DocumentMoniker": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Application\\Services\\TenantService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\TenantService.cs",
+              "ToolTip": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Application\\Services\\TenantService.cs",
+              "RelativeToolTip": "Application\\Services\\TenantService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAASwBIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:42:53.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:41:12.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TenantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Infrastructure\\Repositories\\TenantRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\TenantRepository.cs",
+              "ToolTip": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Infrastructure\\Repositories\\TenantRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\TenantRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:40:42.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITenantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Application\\Interfaces\\ITenantRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ITenantRepository.cs",
+              "ToolTip": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Application\\Interfaces\\ITenantRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ITenantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:39:50.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TenantDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Application\\DTOs\\TenantDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\TenantDTO.cs",
+              "ToolTip": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Application\\DTOs\\TenantDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\TenantDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:37:01.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TenantEntity.cs",
+              "DocumentMoniker": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Domain\\TenantEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\TenantEntity.cs",
+              "ToolTip": "C:\\Users\\nubbd\\OneDrive\\\u00C1rea de Trabalho\\projetos\\pessoais\\Imobiliaria\\Tenant\\Domain\\TenantEntity.cs",
+              "RelativeToolTip": "Domain\\TenantEntity.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:11:07.807Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
