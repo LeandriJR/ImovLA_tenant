@@ -26,6 +26,7 @@ builder.Services.AddSwaggerGen();
 // Add scoped services for Tenant Repository and Service
 builder.Services.AddScoped<ITenantRepository, TenantRepository>();
 builder.Services.AddScoped<IEmpresaRepository, EmpresaRepository>();
+builder.Services.AddScoped<ITenantLogRepository, TenantLogRepository>();
 builder.Services.AddScoped<TenantService>();
 builder.Services.AddScoped<EmpresaService>();
 

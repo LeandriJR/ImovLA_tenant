@@ -6,4 +6,5 @@ public interface ITenantRepository
 {
     Task<TenantEntity> GetByIdAsync(string id);
     Task<TenantEntity> AddAsync(TenantEntity tenant);
+    Task UpdateAsync(TenantEntity tenant);
 }

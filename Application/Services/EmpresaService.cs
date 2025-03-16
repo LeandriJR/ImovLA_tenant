@@ -7,18 +7,40 @@ namespace Tenant.Application.Services{
 public class EmpresaService
 {
     private readonly IEmpresaRepository _empresaRepository;
-
-    public EmpresaService(IEmpresaRepository empresaRepository)
+    private readonly ITenantRepository _tenantRepository;
+    public EmpresaService(IEmpresaRepository empresaRepository, ITenantRepository tenantRepository)
     {
         _empresaRepository = empresaRepository;
+        _tenantRepository = tenantRepository;
     }
     
-    public async Task<EmpresaDTO> GetEmpresaByIdAsync(string id)
+    public async Task<EmpresaValidaDTO> GetEmpresaByIdAsync(string id)
     {
         var empresaEntity = await _empresaRepository.GetByIdAsync(id);
         if (empresaEntity == null)
             return null;
+        
+        if (empresaEntity.TenantId == null)
+            return null;
 
+        var tenantEntity = await _tenantRepository.GetByIdAsync(empresaEntity.TenantId.ToString());
+        
+        return new EmpresaValidaDTO
+        {
+            id = empresaEntity.id,
+            NomeFantasia = empresaEntity.NomeFantasia,  
+            CNPJ = empresaEntity.CNPJ,
+            DataPlano = tenantEntity.DataPlano,
+            PlanoId = tenantEntity.PlanoId
+        };
+    }
+    
+    public async Task<EmpresaDTO> GetEmpresaValidaByIdAsync(string id)
+    {
+        var empresaEntity = await _empresaRepository.GetByIdAsync(id);
+        if (empresaEntity == null)
+            return null;
+        
         // Mapeando TenantEntity para TenantDTO
         return new EmpresaDTO
         {

@@ -26,7 +26,6 @@ namespace Tenant.Api.Controllers
             return Ok(tenant);
         }
 
-        // POST api/tenant
         [HttpPost]
         public async Task<ActionResult<TenantDTO>> CreateTenant([FromBody] TenantDTO tenantDto)
         {
@@ -35,6 +34,23 @@ namespace Tenant.Api.Controllers
 
             var newTenant = await _tenantService.AddTenantAsync(tenantDto);
             return CreatedAtAction(nameof(GetTenant), new { id = newTenant.id }, newTenant);
+        }
+        
+        [HttpPut("{id}")]
+        public async Task<ActionResult<TenantDTO>> UpdateTenant([FromBody] TenantDTO tenantDto)
+        {
+            if (tenantDto == null)
+                return BadRequest("Invalid tenant data");
+
+            var newTenant = await _tenantService.AddTenantAsync(tenantDto);
+            return CreatedAtAction(nameof(GetTenant), new { id = newTenant.id }, newTenant);
+        }
+        
+        [HttpPut("{id}/status")]
+        public async Task<ActionResult<TenantDTO>> DesativarTenant(string id)
+        {
+            var tenant = await _tenantService.InativarTenantAsync(id);
+            return Ok();
         }
     }
 }

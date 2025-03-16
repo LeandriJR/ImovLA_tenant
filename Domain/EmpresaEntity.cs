@@ -21,6 +21,10 @@ namespace Tenant.Domain
         [ForeignKey("endereco_id")]
         [Column("endereco_id")]
         public Guid? EnderecoId { get; set; }
+        
+        [ForeignKey("tenant_id")]
+        [Column("tenant_id")]
+        public Guid? TenantId { get; set; }
     }
 
 }

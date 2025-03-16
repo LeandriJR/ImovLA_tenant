@@ -28,5 +28,10 @@ namespace Tenant.Infrastructure.Repositories
             await _context.SaveChangesAsync();
             return tenant;
         }
+        public async Task UpdateAsync(TenantEntity tenant)
+        {
+            _context.Tenants.Update(tenant); // Marca a entidade como modificada
+            await _context.SaveChangesAsync(); // Salva as mudanças no banco
+        }
     }
 }

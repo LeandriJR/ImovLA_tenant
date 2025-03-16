@@ -137,3 +137,4 @@ C:\Users\nubbd\OneDrive\Área de Trabalho\projetos\pessoais\Imobiliaria\Tenant\b
 C:\Users\nubbd\OneDrive\Área de Trabalho\projetos\pessoais\Imobiliaria\Tenant\bin\Debug\net8.0\Api\Properties\launchSettings.json
 C:\Users\nubbd\OneDrive\Área de Trabalho\projetos\pessoais\Imobiliaria\Tenant\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\nubbd\OneDrive\Área de Trabalho\projetos\pessoais\Imobiliaria\Tenant\bin\Debug\net8.0\appsettings.json
+C:\Users\nubbd\OneDrive\Área de Trabalho\projetos\pessoais\Imobiliaria\Tenant\obj\Debug\net8.0\Tenant.sourcelink.json

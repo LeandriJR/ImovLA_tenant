@@ -15,15 +15,23 @@ public class EmpresaController : ControllerBase
     }
         
     [HttpGet("{id}")]
-    public async Task<ActionResult<EmpresaDTO>> GetEmpresa(string id)
+    public async Task<ActionResult<EmpresaValidaDTO>> GetEmpresa(string id)
     {
-        var tenant = await _empresaService.GetEmpresaByIdAsync(id);
+        var empresa_valida = await _empresaService.GetEmpresaByIdAsync(id);
+        if (empresa_valida == null)
+            return NotFound(new { message = "Empresa não encontrada." });
+
+        return Ok(empresa_valida);
+    }
+    [HttpGet("{id}/validarEmpresa")]
+    public async Task<ActionResult<EmpresaDTO>> GetEmpresaValida(string id)
+    {
+        var tenant = await _empresaService.GetEmpresaValidaByIdAsync(id);
         if (tenant == null)
             return NotFound(new { message = "Empresa não encontrada." });
 
         return Ok(tenant);
     }
-    
     [HttpPost]
     public async Task<ActionResult<EmpresaDTO>> CreateTenant([FromBody] EmpresaDTO empresaDTO)
     {
