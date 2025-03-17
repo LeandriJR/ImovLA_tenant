@@ -13,7 +13,6 @@ if (string.IsNullOrEmpty(connectionString))
     throw new Exception("Connection string não encontrada! Verifique o appsettings.json.");
 }
 
-Console.WriteLine($"ConnectionString: {connectionString}");
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(connectionString));
